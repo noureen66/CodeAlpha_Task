@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+   <div class="header-left">
+    <h1>My Gallery</h1>
+    <p class="meta-info">November 11th, 2025 · 4 images · 0 videos</p>
+  </div>
+ 
+  
+</header>
+
+<div class="gallery-container">
+  <div class="gallery">
+    <img src="images/img1.jpg" alt="Image 1">
+    <img src="images/img2.jpg" alt="Image 2">
+    <img src="images/img3.jpg" alt="Image 3">
+    <img src="images/img4.jpg" alt="Image 4">
+  </div>
+</div>
+
+  <!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+  <div class="navigation">
+    <button id="prev">&#10094;</button>
+    <button id="next">&#10095;</button>
+  </div>
+  <div class="zoom-controls">
+    <button id="zoomIn">+</button>
+    <button id="zoomOut">−</button>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
